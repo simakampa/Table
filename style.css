@@ -1,0 +1,151 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    padding: 10px;
+}
+
+/* Center the form */
+main {
+    max-width: 200px;
+    margin: auto;
+    background: #ffffff;
+    padding: 200px;
+    padding-top: 50px;
+    border-radius: 8px;
+}
+
+/* Fieldset styling */
+fieldset {
+    border: 1px solid #a34747;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+/* Legend */
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Inputs, select, textarea */
+input, select, textarea {
+    width: 60%;
+    padding: 3px;
+    border: 1px solid #8c2e2e;
+    border-radius: 4px;
+}
+
+/* Radio & checkbox inline */
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"] {
+    width: auto;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Reset button */
+input[type="reset"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+input[type="reset"]:hover {
+    background-color: #c82333;
+}
+
+
+
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    padding: 20px;
+}
+
+/* Center content */
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/* Table header */
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Cells */
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Row striping */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tbody tr:hover {
+    background-color: #e6f2ff;
+}
+
+/* Footer */
+tfoot {
+    background-color: #343a40;
+    color: white;
+    font-weight: bold;
+}
